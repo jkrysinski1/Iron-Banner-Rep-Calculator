@@ -12,7 +12,6 @@
 		11E576131C03A6E9001C8B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E576111C03A6E9001C8B39 /* Main.storyboard */; };
 		11E576151C03A6E9001C8B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E576141C03A6E9001C8B39 /* Assets.xcassets */; };
 		11E576181C03A6E9001C8B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E576161C03A6E9001C8B39 /* LaunchScreen.storyboard */; };
-		11E576231C03A6E9001C8B39 /* IBRepCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E576221C03A6E9001C8B39 /* IBRepCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,6 @@
 		11E576171C03A6E9001C8B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E576191C03A6E9001C8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E5761E1C03A6E9001C8B39 /* IBRepCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBRepCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11E576221C03A6E9001C8B39 /* IBRepCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBRepCalculatorTests.swift; sourceTree = "<group>"; };
-		11E576241C03A6E9001C8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				11E5760C1C03A6E9001C8B39 /* IBRepCalculator */,
-				11E576211C03A6E9001C8B39 /* IBRepCalculatorTests */,
 				11E5760B1C03A6E9001C8B39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,15 +81,6 @@
 				11E576191C03A6E9001C8B39 /* Info.plist */,
 			);
 			path = IBRepCalculator;
-			sourceTree = "<group>";
-		};
-		11E576211C03A6E9001C8B39 /* IBRepCalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				11E576221C03A6E9001C8B39 /* IBRepCalculatorTests.swift */,
-				11E576241C03A6E9001C8B39 /* Info.plist */,
-			);
-			path = IBRepCalculatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E576231C03A6E9001C8B39 /* IBRepCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
